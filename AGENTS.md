@@ -37,9 +37,9 @@ This document explains how the coding agent is expected to work in this repo.
 ## Instructions
 
 - Follow specifications from `specs/` folder with status `approved`.
+
 - `docs/` folder and subfolders do not contain any specifications, it is documentation generated after building.
-- →
-- Track work as files under `tasks/` (move between the workflow stages).
+
 - Capture non-obvious learnings in `docs/lessons-learned.md` and `docs/common-pitfalls.md`.
 
 - When executing a task:
