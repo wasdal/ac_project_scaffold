@@ -21,3 +21,12 @@ summary: Alarm Channel concept
 
 ▼
 ▲
+
+```mermaid
+graph TD
+
+Runtime --> Application
+Application --> Domain
+Infrastructure --> Domain
+Presentation --> Application
+```
