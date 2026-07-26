@@ -38,16 +38,16 @@ This document explains how the coding agent is expected to work in this repo.
 
 - Follow specifications from `specs/` folder with status `approved`.
 
-- `docs/` folder and subfolders do not contain any specifications, it is documentation generated after building.
+- `docs/` folder and subfolders do not contain any specifications, it is documentation you wil generate after building.
 
 - Capture non-obvious learnings in `docs/lessons-learned.md` and `docs/common-pitfalls.md`.
 
 - When executing a task:
 
-  1. Read the task in `tasks/backlog/`.
+  1. Read the task from `tasks/backlog/`.
   2. Move it to `tasks/implementing`.
   3. Read any referenced specifications in `specs/`.
-  4. Read any referenced ADRs in `adr/`.
+  4. Read any referenced ADR(s) from `adr/`.
   5. Identify the affected package(s).
   6. Implement the smallest change that satisfies the task.
   7. Run the validation commands.
